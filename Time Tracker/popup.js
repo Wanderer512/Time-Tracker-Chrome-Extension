@@ -263,7 +263,7 @@ function displayData() {
 
   if (sum > 0) {
     limited_data_chart.push([
-      "Other",
+      "Others",
       {
         v: sum,
         f: timeString(sum),
@@ -283,8 +283,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #5c91e6;"
               }
@@ -300,8 +300,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #a711f2;"
               }
@@ -317,8 +317,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #c353e6;"
               }
@@ -334,8 +334,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #ed39a8;"
               }
@@ -351,8 +351,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #e66ec8;"
               }
@@ -368,8 +368,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #eb3147;"
               }
@@ -385,8 +385,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #ffae00;"
               }
@@ -402,8 +402,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #0db81e;"
               }
@@ -419,8 +419,8 @@ function displayData() {
               }
             },
             {
-              v: numSeconds,
-              f: timeString(numSeconds),
+              v: sum,
+              f: timeString(sum),
               p: {
                 style: "text-align: left; white-space: normal; background-color: #5c91e6;"
               }
